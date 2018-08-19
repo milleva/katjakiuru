@@ -13,6 +13,7 @@
 .App-logo {
   height: 200px;
   margin-left: 150px;
+  position: absolute;
 }
 
 .title_wrapper {
@@ -28,8 +29,23 @@
   font-size: 1em;
 }
 
-.App-intro {
-  font-size: large;
+.top-links {
+  position: absolute;
+  right: 10px;
+}
+
+.top-link {
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.contact {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  color: lightpink;
 }
 
 @media only screen and (max-width: 900px) {
