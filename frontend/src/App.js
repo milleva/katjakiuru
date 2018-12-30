@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import TitleBar from './header/TitleBar.jsx'
+import DropdownSection from './dropdowns/DropdownSection'
+import MainContent from './MainContent'
 import './App.css';
 
 const images = [
@@ -13,7 +15,11 @@ class App extends Component {
     return (
       <div className="App">
           <TitleBar/>
-        
+          <div className={"beef__container"}>
+              <MainContent/>
+              <DropdownSection/>
+          </div>
+          
       </div>
     );
   }

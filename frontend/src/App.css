@@ -40,13 +40,33 @@
   margin-left: 5px;
   text-decoration: underline;
 }
+.top-link:hover{
+  cursor: pointer;
+}
 
 .contact {
   position: absolute;
   right: 15px;
   top: 50px;
-  color: lightpink;
+  color: darkgrey;
 }
+
+.beef__container {
+  display: flex;
+}
+
+.maincontent__container {
+  flex:2.5;
+  text-align: left;
+  padding: 32px;
+  margin-top: 12px;
+}
+
+.dropdown__container {
+  flex:1;
+  padding: 24px;
+}
+
 
 @media only screen and (max-width: 900px) {
   .App-logo {
@@ -55,6 +75,12 @@
   .App-title {
     font-size: 2.5em;
   }
+}
+
+
+
+p {
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 600px) {

@@ -28,7 +28,7 @@ class TitleBar extends React.Component {
     
     showContact = () => {
         this.setState({showContact: true})
-        setTimeout(() => {this.setState({showContact: false})}, 10000)
+        setTimeout(() => {this.setState({showContact: false})}, 8000)
     }
 }
 
@@ -37,7 +37,7 @@ const TopLinks = ({onClick}) =>
         <a className="top-link" target="_blank"
            href="http://www.katjakiuru.org/layouts/ansioluetteloNavigator.html">Ansioluettelo</a>
         |
-        <a className="top-link" target="_blank" href="http://www.katjakiuru.org/layouts/blogi.html">Blogi</a>
+        <a className="top-link" target="_blank" href="http://evanarkko.github.io/layouts/blogi.html">Blogi</a>
         |
         <span onClick={onClick} className="top-link">Ota yhteyttä</span>
     </div>
