@@ -22,7 +22,13 @@ export default class MainContent extends React.Component {
                     keho-orientoitunutta psykoterapiaa Suomen Luonneanalyyytisen vegetoterapiayhdistyksen, sittemmin
                     Kehopsykoterapiayhdistys ry., koulutuksessa vuosina 1999-2003.
                 </p>
-            
+    
+                <a href="">
+                    <img className="social" src={require('./resources/images/linkedin.png')} alt="wtf"/>
+                </a>
+                <a href="">
+                    <img className="social" src={require('./resources/images/IMDB-Icon.png')} alt="wtf"/>
+                </a>
             </div>
         )
     }

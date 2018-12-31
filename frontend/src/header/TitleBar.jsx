@@ -21,7 +21,7 @@ class TitleBar extends React.Component {
                 <TopLinks onClickContact={() => this.showContact()} onClickCV={() => this.showCV()}/>
                 {this.state.showContact &&
                 <div className="contact">
-                    <p>Email: katjakiuru@gmail.com</p>
+                    <p>Email: <a style={{color: "whitesmoke"}} href = "mailto: katjakiuru@gmail.com">katjakiuru@gmail.com</a></p>
                     <p>Tel: +358 40 812 6244</p>
                 </div>}
                 {this.state.showCV &&
