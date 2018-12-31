@@ -10,11 +10,6 @@ import Paloja from './contents/Paloja'
 import Kouluttaja from './contents/Kouluttaja'
 import './App.css';
 
-const images = [
-    require('./header/kk2.png'),
-    require('./header/kk4.png'),
-    require('./header/kk5.png')
-]
 
 class App extends Component {
     constructor(){
