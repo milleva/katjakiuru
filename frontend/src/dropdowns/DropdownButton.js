@@ -30,14 +30,13 @@ export default class DropdownButton extends React.Component {
                     this.state.selected &&
                     <div className="secondary-dropdown__item-container">
                         {this.props.options
-                            .filter((x, index) => this.props.time ? true : index !== this.state.selectedIndex)
                             .map((item) =>
                                 <div
                                     key={item}
                                     className="secondary-dropdown__item"
                                     onClick={() => {
                                         this.setState({selectedIndex: this.props.options.indexOf(item)})
-                                        this.props.dispatcher(item)
+                                        this.props.setContent(item)
                                     }}
                                 >{item}</div>)}
                     </div>

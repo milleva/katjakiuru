@@ -7,8 +7,14 @@
   background-color: #222;
   height: 220px;
   padding: 20px;
-  color: white;
+  color: whitesmoke;
 }
+
+.App-title:hover {
+   cursor: pointer;
+  color: floralwhite;
+  text-shadow: 4px 4px darkgray;
+ }
 
 .App-logo {
   height: 200px;
@@ -35,7 +41,7 @@
 }
 
 .top-link {
-  color: white;
+  color: whitesmoke;
   margin-right: 5px;
   margin-left: 5px;
   text-decoration: underline;
@@ -49,7 +55,24 @@
   right: 15px;
   top: 50px;
   color: darkgrey;
+  text-align: left;
 }
+
+.cv {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  color: darkgrey;
+}
+
+.cv-link {
+  color: whitesmoke;
+  margin: 6px;
+  font-size: 1.1em;
+}
+.cv-link__container {
+  margin: 24px;
+ }
 
 .beef__container {
   display: flex;
@@ -67,6 +90,42 @@
   padding: 24px;
 }
 
+.mediaImg {
+  max-width: 50vw;
+  margin: 8px;
+  border-top: 2px #222222 dashed;
+  padding: 20px;
+}
+
+.kirjatilaisuus__container {
+  display: flex;
+}
+.kirjatilaisuus__img {
+  width: 32vw;
+  height: auto;
+  margin: 3px;
+}
+.kouluttajaButton {
+  height: 50px;
+  background-color: #222;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 5px 15px 15px 0;
+  box-sizing: border-box;
+  padding: 12px 20px 12px 10px;
+  line-height: 16px;
+  position: relative;
+  user-select: none;
+}
+.kouluttajaButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: #222 1px solid;
+}
 
 @media only screen and (max-width: 900px) {
   .App-logo {

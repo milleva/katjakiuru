@@ -35,7 +35,9 @@
 }
 .secondary-dropdown:hover {
     cursor: pointer;
-    background-color: rgba(160, 190, 255, 0.25);
+    background-color: white;
+    color: black;
+    border: #222 1px solid;
 }
 
 .secondary-dropdown__item-container {
@@ -48,7 +50,6 @@
     left: 0;
     z-index: 1;
     overflow-y: auto;
-    height: 275px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -56,14 +57,16 @@
     display: flex;
     align-items: center;
     width: auto;
-    position: static;
-    height: 50px;
+    height: 12px;
     padding: 25px 10px;
-    background-color: rgba(160, 190, 255, 0.1);
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
 }
 
 .secondary-dropdown__item:hover {
-    background-color: black;
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
 
